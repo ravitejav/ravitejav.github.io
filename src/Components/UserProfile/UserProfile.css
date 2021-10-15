@@ -1,0 +1,40 @@
+.UserProfileWrapper {
+    height: 20em;
+    width: 100%;
+    background: linear-gradient(217deg, rgba(235, 125, 122, 0.8), rgba(255,0,0,.8));
+}
+.UserProfileWrapper .userDisplayBlock {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding-left: 4rem;
+}
+.UserProfileWrapper .userDisplayBlock .info {
+    font-size: 0.8rem;
+    color: #000;
+}
+.UserProfileWrapper .userDisplayBlock .userName {
+    font-size: 3rem;
+    color: #fff;
+}
+.UserProfileWrapper .userDisplayBlock .downloadResume {
+    width: fit-content;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #3f51b5;
+    font-size: 1.5rem;
+    border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+    .UserProfileWrapper .userDisplayBlock {
+        padding-left: 0.5rem;
+        align-items: center;
+    }
+    .UserProfileWrapper .userDisplayBlock .downloadResume {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+
+}
