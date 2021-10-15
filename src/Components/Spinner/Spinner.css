@@ -1,0 +1,38 @@
+.SpinnerWrapper {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 99;
+    background-color: rgba(139, 139, 139, 0.2);
+    flex-direction: column;
+}
+.SpinnerWrapper .spinner {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 5px solid #07d;
+    border-bottom: 0px;
+    border-left: 0px;
+    animation: rotateDiv .6s linear infinite;
+    animation-delay: 0s;
+}
+
+.SpinnerWrapper .loaderName {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+@keyframes rotateDiv {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .SpinnerWrapper .spinner {
+        height: 30px;
+        width: 30px;
+    }
+}
