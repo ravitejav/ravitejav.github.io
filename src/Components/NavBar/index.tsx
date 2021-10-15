@@ -3,7 +3,7 @@ import { menuBar } from "../../Utils/Constants";
 import { MenuItem } from "./MenuItem";
 import { MenuItemDetails } from '../../Interfaces/MenuBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faCross, faTimes, faXRay } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 
 export const NavBar = () => {
