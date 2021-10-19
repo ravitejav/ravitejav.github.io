@@ -16,8 +16,8 @@ export const NavBar = () => {
                 <FontAwesomeIcon icon={showSideBar ? faTimes : faBars} />
             </div>
             <ul className={showSideBar ? "mobileMenu center" : ""}>
-                {menuBar.map((menuItem: MenuItemDetails) => (
-                    <MenuItem {...menuItem} />
+                {menuBar.map((menuItem: MenuItemDetails, i: number) => (
+                    <MenuItem {...menuItem} key={i} />
                 ))}
             </ul>
         </div>
