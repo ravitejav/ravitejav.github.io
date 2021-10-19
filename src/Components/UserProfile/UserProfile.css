@@ -14,6 +14,28 @@
     font-size: 0.8rem;
     color: #000;
 }
+/* .UserProfileWrapper .userDisplayBlock .links {
+    display: flex;
+    flex-direction: row;
+} */
+.UserProfileWrapper .userDisplayBlock .links a {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+.UserProfileWrapper .userDisplayBlock .links a.mail {
+    color: #dd4b39;
+}
+.UserProfileWrapper .userDisplayBlock .links a.linkedin {
+    color: #0e76ae;
+}
+.UserProfileWrapper .userDisplayBlock .links a.github {
+    color: #333;
+}
 .UserProfileWrapper .userDisplayBlock .userName {
     font-size: 3rem;
     color: #fff;

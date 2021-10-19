@@ -1,10 +1,6 @@
 .skillsWrapper {
     padding: 1rem 0rem 1rem 3.5rem;
 }
-.skillsWrapper h2 {
-    font-size: 2rem;
-    font-style: italic
-}
 .skillsWrapper .skillsBlock {
     display: flex;
     flex-direction: row;
@@ -12,15 +8,16 @@
 }
 .skillsWrapper .skillsBlock .skill {
     padding: 0.5rem 1rem;
-    background-color: #ff4081;
+    background-color: #3f51b5;
     margin: 0.25rem;
+    color: #fff;
     border-radius: 2rem;
 }
 .skillsWrapper .skillsBlock .skill svg {
     margin-right: 0.25rem;
 }
 .skillsWrapper .skillsBlock .skill:hover {
-    background-color: #fc7ea8;
+    background-color: #0c26b8;
 }
 @media screen and (max-width: 768px) {
     .skillsWrapper {
