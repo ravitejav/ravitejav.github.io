@@ -1,4 +1,4 @@
-import { faAndroid, faAngular, faCss3, faCss3Alt, faGit, faGitAlt, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faAndroid, faAngular, faCss3Alt, faGitAlt, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import {
   faFile,
   faHome,
