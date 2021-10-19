@@ -9,13 +9,13 @@ export const UserProfile = () => {
             <div className="userDisplayBlock">
                 <span className="userName">Raviteja V</span>
                 <p className="links">
-                    <a href="mailto:raviteja99866@gmail.com" className="mail" rel="noopener" target="_blank">
+                    <a href="mailto:raviteja99866@gmail.com" className="mail" rel="noreferrer" target="_blank">
                         <FontAwesomeIcon icon={faEnvelope} />
                     </a>
-                    <a href="https://www.linkedin.com/in/raviteja-v-312567148/" target="_blank" rel="noopener" className="linkedin ">
+                    <a href="https://www.linkedin.com/in/raviteja-v-312567148/" target="_blank" rel="noreferrer" className="linkedin ">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://github.com/ravitejav/" target='_blank' rel="noopener" className="github ">
+                    <a href="https://github.com/ravitejav/" target='_blank' rel="noreferrer" className="github ">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                 </p>
