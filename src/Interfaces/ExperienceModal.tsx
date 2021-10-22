@@ -1,7 +1,8 @@
 export interface ExperienceModal {
     companyName: string;
-    from?: Date;
-    to?: Date;
+    totalExperience: string;
+    isCurrent?: boolean;
+    imageUrl: string;
     work: Array<IndependentExperiences>;
 }
 

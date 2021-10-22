@@ -50,8 +50,9 @@ export const skillSet: Array<Skill> = [
 export const Experiences: Array<ExperienceModal> = [
   {
     companyName: COMPANY.QUOTIENT,
-    from: new Date('Tue Jun 01 2021 00:00:00 GMT+0530'),
-    to: new Date(),
+    totalExperience: '',
+    isCurrent: true,
+    imageUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQEFklR4l4CcmA/company-logo_100_100/0/1625682402225?e=1643241600&v=beta&t=kLiaXoBWEwcGNr1eU6kF_ok96_ShEoDDBqld4a5abiM',
     work: [
       {
         from: new Date('Tue Jun 01 2021 00:00:00 GMT+0530'),
@@ -63,8 +64,8 @@ export const Experiences: Array<ExperienceModal> = [
   },
   {
     companyName: COMPANY.ACCOLITE,
-    from: new Date(1562524200),
-    to: new Date('Fri May 28 2021 00:00:00 GMT+0530'),
+    totalExperience: '2 Yr 4 Months',
+    imageUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQHtwUTC4975SQ/company-logo_100_100/0/1627901210445?e=1643241600&v=beta&t=YVDOHmqJMS1eQW02nMQhzM-bY4NtTKZzpyJ7MdlOOBI',
     work: [
       {
         from: new Date('Sun Mar 01 2020 00:00:00 GMT+0530'),

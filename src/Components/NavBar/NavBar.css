@@ -34,6 +34,10 @@
 @media screen and (max-width: 768px) {
     .navbarWrapper {
         width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     .navbarWrapper .hamburger {
         display: flex;
@@ -51,7 +55,7 @@
         height: fit-content;
     }
     .navbarWrapper ul li {
-        padding: 2em 4em;
+        padding: 2em 0em;
         height: fit-content;
     }
 

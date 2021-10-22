@@ -17,7 +17,7 @@ export const NavBar = () => {
             </div>
             <ul className={showSideBar ? "mobileMenu center" : ""}>
                 {menuBar.map((menuItem: MenuItemDetails, i: number) => (
-                    <MenuItem {...menuItem} key={i} />
+                    <MenuItem menu={menuItem} key={i} closeSideBar={() => setShowSideBar(false)} />
                 ))}
             </ul>
         </div>

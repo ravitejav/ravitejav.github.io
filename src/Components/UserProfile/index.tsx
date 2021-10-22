@@ -20,7 +20,7 @@ export const UserProfile = () => {
                     </a>
                 </p>
                 <p className="info">Fornt End Developer with 2 years of Experience in building responsive, Performant and SEO driven web Applications. Skilled in ReactJS, React Native, Redux. Hands on Experience with Jenkins.</p>
-                <div className="downloadResume button">Download Resume</div>
+                <div className="downloadResume button" onClick={() => {}}>Download Resume</div>
             </div>
         </section>
     );
