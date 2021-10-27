@@ -19,7 +19,7 @@ export const PersonalProjects = () => {
                                 )}
                                 </h3>
                             <div className="otherdetails">
-                                <span className="desc">{project.desc}</span>
+                                <p className="desc">{project.desc}</p>
                                 <ul>
                                     {project.technologies.map((tech: string) => (
                                         <li>{tech}</li>

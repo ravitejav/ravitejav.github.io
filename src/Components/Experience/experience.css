@@ -5,4 +5,7 @@
     .experienceWrapper {
         padding-left: 0;
     }
+    .experienceWrapper > h2 {
+        text-align: center;
+    }
 }

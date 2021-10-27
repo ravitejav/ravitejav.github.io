@@ -16,6 +16,7 @@
 }
 .PersonalProjectsWrapper .personalProjects ul .projectBlock .otherdetails ul {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 0.3rem;
 }
 .PersonalProjectsWrapper .personalProjects ul .projectBlock .otherdetails ul li {
@@ -25,9 +26,16 @@
     border-radius: 1rem;
     color: #fff;
     font-weight: 400;
+    margin-bottom: 0.2rem;
 }
 @media screen and (max-width: 768px) {
     .PersonalProjectsWrapper > h2 {
         text-align: center;
     }
+    .PersonalProjectsWrapper .personalProjects {
+        padding: 0rem 1rem;
+    }
+    .PersonalProjectsWrapper .personalProjects ul .projectBlock .otherdetails p {
+        text-align: justify;
+    }  
 }

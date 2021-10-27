@@ -37,6 +37,7 @@
 .experienceWithCompany .workExperience .individualExp p {
     font-weight: 200;
     font-size: 0.8rem;
+    text-align: justify;
 }
 .experienceWithCompany .workExperience .individualExp p.time {
     font-weight: 400;
@@ -48,4 +49,9 @@
 }
 .experienceWithCompany:last-child {
     margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+    .experienceWithCompany .workExperience .individualExp p, .experienceWithCompany .workExperience .individualExp ul {
+        padding-right: 1rem;
+    }
 }

@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .skillsWrapper .skillsBlock .skill {
     padding: 0.5rem 1rem;
