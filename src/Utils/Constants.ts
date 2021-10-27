@@ -8,6 +8,7 @@ import {
 import { MenuItemDetails } from "../Interfaces/MenuBar";
 import { Skill } from "../Interfaces/Skills";
 import { ExperienceModal } from "../Interfaces/ExperienceModal";
+import { Projects } from "../Interfaces/Projects";
 import { COMPANY, ROLES } from "./CompanyConstants";
 
 export const menuBar: Array<MenuItemDetails> = [
@@ -47,10 +48,19 @@ export const skillSet: Array<Skill> = [
   { name: "GIT", icon: faGitAlt },
 ];
 
+const getTimeGap = (from: Date): string => {
+  const today = new Date();
+  const time = today.getTime() - from.getTime();
+  const gap = Math.floor((time/(1000*60*60*24*30.5)));
+  const years = Math.floor(gap / 12) || 0;
+  const months = gap % 12;
+  return years > 0 ? `${years} Yr ${months} Months` : ` ${months} Months`;
+}
+
 export const Experiences: Array<ExperienceModal> = [
   {
     companyName: COMPANY.QUOTIENT,
-    totalExperience: '',
+    totalExperience: getTimeGap(new Date('Tue Jun 01 2021 00:00:00 GMT+0530')),
     isCurrent: true,
     imageUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQEFklR4l4CcmA/company-logo_100_100/0/1625682402225?e=1643241600&v=beta&t=kLiaXoBWEwcGNr1eU6kF_ok96_ShEoDDBqld4a5abiM',
     work: [
@@ -87,8 +97,27 @@ export const Experiences: Array<ExperienceModal> = [
         from: new Date('Thu Jan 03 2019 00:00:00 GMT+0530'),
         to: new Date('Fri May 31 2019 00:00:00 GMT+0530'),
         position: ROLES.INTERN,
-        workExperience: 'Designed and Implemented data transformation of a large tabled database to a non- tabled database, for analysing the transaction and suggestions for the users.',
+        workExperience: 'Designed and Implemented data transformation of a large tabled database to a non-tabled database, for analysing the transaction and suggestions for the users.',
       },
     ]
   }
 ];
+
+const allProjects: Projects = {
+  personalProjects: [
+    {
+      desc: 'It is Application for one to one or Group chats. This application currently allow text messages with real-time synchronization',
+      projectName: 'Chatter',
+      url: 'https://ravitejav.github.io/Chatter',
+      technologies: ['ReactJS', 'Firebase Realttime DB']
+    },
+    {
+      desc: 'INSPIRION is an application for allowing user to know about the current on going events, and help with registration process for the Events available in Fest.',
+      projectName: 'INSPIRION 18.0',
+      url: '',
+      technologies: ['HTML', 'CSS', 'JAVASCRIPT' ,'PAYTM', 'JAVA', 'SPRING BOOT']
+    },
+  ]
+}
+
+export const personalProjects = () => (allProjects.personalProjects);

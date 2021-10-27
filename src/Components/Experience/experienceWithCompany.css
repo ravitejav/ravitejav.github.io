@@ -46,3 +46,6 @@
     font-size: 0.8rem;
     padding-left: 1rem;
 }
+.experienceWithCompany:last-child {
+    margin-bottom: 0;
+}
