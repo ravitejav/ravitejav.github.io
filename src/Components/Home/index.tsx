@@ -4,6 +4,7 @@ import { UserProfile} from "../UserProfile";
 import { Skills } from '../UserProfile/Skills';
 import { Experience } from '../Experience';
 import { Projects } from '../Projects';
+import { SocialMediaProfiles } from '../SocialMediaProfiles';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Skills />
             <Experience />
             <Projects />
+            <SocialMediaProfiles />
         </main>
     )
 }

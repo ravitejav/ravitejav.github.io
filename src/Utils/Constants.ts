@@ -1,4 +1,4 @@
-import { faAndroid, faAngular, faCss3Alt, faGitAlt, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faAndroid, faAngular, faCss3Alt, faGitAlt, faHtml5, faJs, faReact, faStackOverflow } from "@fortawesome/free-brands-svg-icons";
 import {
   faFile,
   faHome,
@@ -10,8 +10,9 @@ import { Skill } from "../Interfaces/Skills";
 import { ExperienceModal } from "../Interfaces/ExperienceModal";
 import { Projects } from "../Interfaces/Projects";
 import { COMPANY, ROLES } from "./CompanyConstants";
+import { OtherProfile } from "../Interfaces/OtherProfile";
 
-export const menuBar: Array<MenuItemDetails> = [
+const menuBar: Array<MenuItemDetails> = [
   {
     name: "HOME",
     link: "/home",
@@ -38,7 +39,7 @@ export const menuBar: Array<MenuItemDetails> = [
   },
 ];
 
-export const skillSet: Array<Skill> = [
+const skillSet: Array<Skill> = [
   { name: "ReactJS", icon: faReact },
   { name: "Javascript", icon:faJs },
   { name: "React Native", icon: faAndroid },
@@ -57,7 +58,7 @@ const getTimeGap = (from: Date): string => {
   return years > 0 ? `${years} Yr ${months} Months` : ` ${months} Months`;
 }
 
-export const Experiences: Array<ExperienceModal> = [
+const Experiences: Array<ExperienceModal> = [
   {
     companyName: COMPANY.QUOTIENT,
     totalExperience: getTimeGap(new Date('Tue Jun 01 2021 00:00:00 GMT+0530')),
@@ -109,7 +110,7 @@ const allProjects: Projects = {
       desc: 'It is Application for one to one or Group chats. This application currently allow text messages with real-time synchronization',
       projectName: 'Chatter',
       url: 'https://ravitejav.github.io/Chatter',
-      technologies: ['ReactJS', 'Firebase Realttime DB']
+      technologies: ['ReactJS', 'Firebase Realtime DB']
     },
     {
       desc: 'INSPIRION is an application for allowing user to know about the current on going events, and help with registration process for the Events available in Fest.',
@@ -120,4 +121,20 @@ const allProjects: Projects = {
   ]
 }
 
-export const personalProjects = () => (allProjects.personalProjects);
+const personalProjects = () => (allProjects.personalProjects);
+
+const OtherProfiles:Array<OtherProfile> = [
+  {
+    name: "StackOverFlow",
+    url: "https://stackoverflow.com/users/9436673/raviteja-v",
+    icon: faStackOverflow,
+  },
+]
+
+export {
+  menuBar,
+  skillSet,
+  Experiences,
+  OtherProfiles,
+  personalProjects,
+}

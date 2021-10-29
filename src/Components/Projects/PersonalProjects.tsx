@@ -6,7 +6,7 @@ export const PersonalProjects = () => {
 
     return (
         <div className="PersonalProjectsWrapper">
-            <h2>Self Projects</h2>
+            <h2>Projects</h2>
             <div className="personalProjects">
                 <ul>
                     {personalProjects().map((project: Project, i: number) => (
