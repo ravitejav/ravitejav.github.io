@@ -12,12 +12,6 @@
 }
 .introWrapper .intro .greeting {
     font-size: 2rem;
-    word-spacing: -1rem;
-}
-.introWrapper .intro .tintLine {
-    background-color: #0DD7F7;
-    height: 4px;
-    width: 6rem;
 }
 .introWrapper .intro .name {
     padding-top: 1rem;
