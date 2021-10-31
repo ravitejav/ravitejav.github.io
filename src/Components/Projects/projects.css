@@ -1,11 +1,99 @@
-.ProjectsWrapper {
-    padding: 1rem 0rem 0rem 3.5rem;
+.projectWrapper {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: #fff;
+}
+.projectWrapper .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 0rem;
+}
+.projectWrapper .projects .project {
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  height: 20rem;
+  width: 18rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.projectWrapper .projects .project img {
+  object-fit: cover;
+  border-radius: 1rem;
+  height: 20rem;
+  width: 18rem;
+}
+.projectWrapper .projects .project .projectDetails {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+}
+.projectWrapper .projects .project .projectDetails .otherDetails {
+  display: none;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+.projectWrapper .projects .project .projectDetails .otherDetails a {
+  background-color: #0c3d71;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.projectWrapper .projects .project .projectDetails .otherDetails a svg {
+  margin-right: 0.3rem;
+}
+.projectWrapper .projects .project .projectDetails .otherDetails .techs {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(224, 224, 224);
+}
+.projectWrapper
+  .projects
+  .project
+  .projectDetails
+  .otherDetails
+  .techs
+  .techname {
+  padding: 0.3rem 0.5rem;
+  margin-left: 0.3rem;
+  background-color: rgba(201, 201, 201, 0.2);
+  border-radius: 1rem;
+}
+.projectWrapper .projects .project:hover {
+  transform: scale(1.1);
+  margin-right: 1rem;
+  margin-left: 1rem;
+  height: 20rem;
+  width: 18rem;
+}
+.projectWrapper .projects .project:hover .projectDetails {
+  top: 0;
+  right: 0;
+  background-color: rgba(201, 201, 201, 0.2);
+  border-radius: 1rem;
+}
+.projectWrapper .projects .project:hover .projectDetails .otherDetails {
+  display: flex;
 }
 @media screen and (max-width: 768px) {
-    .ProjectsWrapper {
-        padding-left: 0;
-    }
-    .ProjectsWrapper > h2 {
-        text-align: center;
-    }
+  .projectWrapper .projects .project:hover {
+    margin-right: 0rem;
+    margin-left: 0rem;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 425px) {
+  .projectWrapper .projects .project {
+      margin-bottom: 1rem;
+  }
+  .projectWrapper {
+    max-width: 100%;
+    padding: 1rem;
+  }
 }

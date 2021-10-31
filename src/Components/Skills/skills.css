@@ -1,0 +1,46 @@
+.skills {
+    width: 100%;
+    padding-bottom: 2rem;
+    flex-direction: column;
+}
+.skills .skilltitle {
+    color: #fff;
+}
+.skills .skillList {
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+}
+.skills .skillList .skill {
+    flex-direction: column;
+    height: 9rem;
+    width: 9rem;
+    margin: 0rem 1rem;
+    border-radius: 1rem;
+    transition: ease-in-out 0.3s;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    background-color: #ffffff0a;
+    cursor: pointer;
+}
+.skills .skillList .skill svg {
+    font-size: 3rem;
+    color: #ffff;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+}
+.skills .skillList .skill span {
+    color: #fff9;
+}
+.skills .skillList .skill:hover {
+    transform: scale(1.08);
+    background-color: #202020;
+}
+
+@media screen and (max-width: 1024px) {
+    .skills .skillList .skill {
+        margin: 0.5rem 1rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .skills .skillList .skill {
+        margin: 0.5rem 0.2rem;
+    }
+}

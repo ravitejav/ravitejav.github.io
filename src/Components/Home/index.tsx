@@ -1,23 +1,19 @@
-import './Home.css';
-// import { NavBar } from "../NavBar";
-import { UserProfile} from "../UserProfile";
-import { Skills } from '../UserProfile/Skills';
-import { Experience } from '../Experience';
-import { Projects } from '../Projects';
-import { SocialMediaProfiles } from '../SocialMediaProfiles';
+import { Intro } from "Components/Intro";
+import { Skills } from "Components/Skills";
+import { Experience } from "Components/Experience";
+import { Projects } from "Components/Projects";
 
 
 const Home = () => {
+    
     return (
-        <main className="HomepageWrapper">
-            {/* <NavBar /> */}
-            <UserProfile />
+        <main style={{ backgroundColor: '#232323' }}>
+            <Intro />
             <Skills />
             <Experience />
             <Projects />
-            <SocialMediaProfiles />
         </main>
-    )
+    );
 }
 
 export default Home;
