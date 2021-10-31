@@ -12,8 +12,8 @@ export const Projects = () => {
                 <span className="tintLine"></span>
             </div>
             <div className="projects center">
-                {personalProjects().map((project: Project) => (
-                    <div className="project center">
+                {personalProjects().map((project: Project, i: number) => (
+                    <div className="project center" key={i}>
                         <img src={project.imageUrl} alt={project.projectName} />
                         <div className="projectDetails center">
                             <h2>{project.projectName}</h2>
@@ -24,8 +24,8 @@ export const Projects = () => {
                                     </a>
                                 ) : null}
                                 <div className="techs">
-                                    {project.technologies.map((tech: string) => (
-                                        <span className="techname">{tech}</span>
+                                    {project.technologies.map((tech: string, j: number) => (
+                                        <span className="techname" key={j}>{tech}</span>
                                     ))}
                                 </div>
                             </div>

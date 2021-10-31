@@ -10,7 +10,7 @@ export const Skills = () => {
             <span className="tintLine"></span>
             <div className="skillList center">
             {skillSet.map((skill: Skill, i: number) => (
-                <div className="skill center">
+                <div className="skill center" key={i}>
                     <FontAwesomeIcon icon={skill.icon} />
                     <span>{skill.name}</span>
                 </div>

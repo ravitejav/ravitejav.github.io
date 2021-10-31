@@ -76,7 +76,7 @@ const Experiences: Array<ExperienceModal> = [
   },
   {
     companyName: COMPANY.ACCOLITE,
-    totalExperience: '2 Yr 4 Months',
+    totalExperience: '1 Yr 11 Months (+5Months Intern)',
     imageUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQHtwUTC4975SQ/company-logo_100_100/0/1627901210445?e=1643241600&v=beta&t=YVDOHmqJMS1eQW02nMQhzM-bY4NtTKZzpyJ7MdlOOBI',
     desc: 'Worked on various projects to create, verify, and approve proposals. For the creation of the proposal, we have created the User Application, an automated system to verify the data using OCR, and approval of the proposal is done using various tech stacks React Native, ReactJS, Angular 2.',
     work: [

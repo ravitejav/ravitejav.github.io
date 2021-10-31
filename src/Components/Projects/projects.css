@@ -85,7 +85,7 @@
   .projectWrapper .projects .project:hover {
     margin-right: 0rem;
     margin-left: 0rem;
-    z-index: 99;
+    z-index: 1;
   }
 }
 @media screen and (max-width: 425px) {
