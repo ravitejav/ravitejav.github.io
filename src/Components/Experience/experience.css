@@ -1,0 +1,50 @@
+.experience {
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   max-width: 80%;
+   margin: auto;
+   padding: 2rem 0rem;
+}
+.experience .exptitle {
+    justify-content: flex-start;
+    margin-right: 2rem;
+}
+.experience .experiences {
+    display: flex;
+    flex-direction: column
+}
+.experience .experiences .exp {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.3rem;
+    border-bottom: 1px solid #adb5bd29;
+    cursor: pointer;
+}
+.experience .experiences .exp .desc {
+    margin-top: 0.2rem;
+    text-align: justify;
+    color: #767E90;
+}
+.experience .experiences .exp .designation {
+    display: flex;
+}
+.experience .experiences .exp .designation .imgWrapper {
+    background-color: #0dd7f7;
+    padding: 0.6rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    height: 3.3rem;
+    width: 3.3rem;
+}
+.experience .experiences .exp .designation .imgWrapper img {
+    height: 2rem;
+    width: 2rem;
+}
+@media screen and (max-width: 475px) {
+    .experience {
+        flex-direction: column;
+        max-width: 100%;
+        padding: 1rem;
+    }
+}

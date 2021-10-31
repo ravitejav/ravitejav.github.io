@@ -64,6 +64,7 @@ const Experiences: Array<ExperienceModal> = [
     totalExperience: getTimeGap(new Date('Tue Jun 01 2021 00:00:00 GMT+0530')),
     isCurrent: true,
     imageUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQEFklR4l4CcmA/company-logo_100_100/0/1625682402225?e=1643241600&v=beta&t=kLiaXoBWEwcGNr1eU6kF_ok96_ShEoDDBqld4a5abiM',
+    desc: 'Implemented the UI and Logic for cashback offers in coupouns.com, It is application to avail the coupons\'s and claim the discounted products.',
     work: [
       {
         from: new Date('Tue Jun 01 2021 00:00:00 GMT+0530'),
@@ -77,6 +78,7 @@ const Experiences: Array<ExperienceModal> = [
     companyName: COMPANY.ACCOLITE,
     totalExperience: '2 Yr 4 Months',
     imageUrl: 'https://media-exp1.licdn.com/dms/image/C560BAQHtwUTC4975SQ/company-logo_100_100/0/1627901210445?e=1643241600&v=beta&t=YVDOHmqJMS1eQW02nMQhzM-bY4NtTKZzpyJ7MdlOOBI',
+    desc: 'Worked on various projects to create, verify, and approve proposals. For the creation of the proposal, we have created the User Application, an automated system to verify the data using OCR, and approval of the proposal is done using various tech stacks React Native, ReactJS, Angular 2.',
     work: [
       {
         from: new Date('Sun Mar 01 2020 00:00:00 GMT+0530'),
@@ -110,13 +112,15 @@ const allProjects: Projects = {
       desc: 'It is Application for one to one or Group chats. This application currently allow text messages with real-time synchronization',
       projectName: 'Chatter',
       url: 'https://ravitejav.github.io/Chatter',
-      technologies: ['ReactJS', 'Firebase Realtime DB']
+      technologies: ['ReactJS', 'Firebase Realtime DB'],
+      imageUrl: 'https://lh3.googleusercontent.com/d/1UZHYce7LsoLB-w7ifTtz8fHKKZBm5Keg'
     },
     {
       desc: 'INSPIRION is an application for allowing user to know about the current on going events, and help with registration process for the Events available in Fest.',
       projectName: 'INSPIRION 18.0',
       url: '',
-      technologies: ['HTML', 'CSS', 'JAVASCRIPT' ,'PAYTM', 'JAVA', 'SPRING BOOT']
+      technologies: ['HTML', 'CSS', 'JAVASCRIPT' ,'PAYTM', 'JAVA', 'SPRING BOOT'],
+      imageUrl: 'https://lh3.googleusercontent.com/d/1yMkvm-EdhCSZgLv1LDLC4PzTfSe6Fwtw'
     },
   ]
 }

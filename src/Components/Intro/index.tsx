@@ -10,7 +10,7 @@ export const Intro = () => {
                 <p className="greeting">Hi, my name is,</p>
                 <span className="tintLine"></span>
                 <span className="name">Raviteja.</span>
-                <p className="introInfo">Fornt End Developer with 2 years of Experience in building responsive, Performant and SEO driven web Applications. Skilled in ReactJS, React Native, Redux. Hands on Experience with Jenkins.</p>
+                <p className="introInfo">Fornt End Developer with 2 years of Experience in building responsive, Performant web Applications. Skilled in ReactJS, React Native, Redux, Angular.</p>
                 <div className="links">
                     <a href="mailto:raviteja99866@gmail.com" className="mail center">
                         <FontAwesomeIcon icon={faEnvelope} />

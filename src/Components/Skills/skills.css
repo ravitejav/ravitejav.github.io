@@ -19,6 +19,7 @@
     transition: ease-in-out 0.3s;
     box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
     background-color: #ffffff0a;
+    cursor: pointer;
 }
 .skills .skillList .skill svg {
     font-size: 3rem;

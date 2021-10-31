@@ -43,7 +43,9 @@ a {
 h2 {
   font-size: 2rem;
 }
+
 .tintLine {
+  display: block;
   background-color: #0DD7F7;
   height: 4px;
   width: 6rem;

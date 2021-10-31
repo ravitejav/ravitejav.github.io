@@ -3,6 +3,7 @@ export interface ExperienceModal {
     totalExperience: string;
     isCurrent?: boolean;
     imageUrl: string;
+    desc: string;
     work: Array<IndependentExperiences>;
 }
 
