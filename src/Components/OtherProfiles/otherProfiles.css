@@ -1,0 +1,22 @@
+.otherProfiles {
+    max-width: 80%;
+    margin: auto;
+    color: #ffffff;
+    padding: 1rem 0rem;
+}
+.otherProfiles .profiles {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.otherProfiles .profiles a {
+    display: flex;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 4rem;
+  box-shadow: 0 0 29px 0 rgb(18 66 101 / 33%);
+
+}
+.otherProfiles .profiles a svg {
+    margin-right: 0.5rem;
+}

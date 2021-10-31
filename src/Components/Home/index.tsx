@@ -2,6 +2,8 @@ import { Intro } from "Components/Intro";
 import { Skills } from "Components/Skills";
 import { Experience } from "Components/Experience";
 import { Projects } from "Components/Projects";
+import { OtherProfileComp } from "Components/OtherProfiles";
+
 
 
 const Home = () => {
@@ -12,6 +14,7 @@ const Home = () => {
             <Skills />
             <Experience />
             <Projects />
+            <OtherProfileComp />
         </main>
     );
 }
