@@ -26,7 +26,7 @@ export const Experience = () => {
                 {Experiences.map((exp: ExperienceModal, i: number) => (
                     <div className="exp" data-title={`click to view experiences in ${exp.companyName}`} onClick={() => showPopUp(exp)} key={i}>
                         <div className="designation">
-                            <span className="imgWrapper center"><img src={exp.imageUrl} /></span>
+                            <span className="imgWrapper center"><img src={exp.imageUrl} alt={exp.companyName} /></span>
                             <span>
                                 <h3>{exp.companyName}</h3>
                                 <span>{exp.isCurrent ?  'Current' : exp.totalExperience}</span>
