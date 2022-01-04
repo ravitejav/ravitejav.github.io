@@ -12,7 +12,7 @@ export const OtherProfileComp = () => {
             </div>
             <div className="profiles">
                 {OtherProfiles.map((profile: OtherProfile, i: number) => (
-                    <a href={profile.url} target="_blank" rel="noreferrer" className="center">
+                    <a href={profile.url} target="_blank" rel="noreferrer" className="center" key={i}>
                         <FontAwesomeIcon icon={profile.icon} />
                         {profile.name}
                     </a>

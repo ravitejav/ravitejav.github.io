@@ -122,6 +122,13 @@ const allProjects: Projects = {
       technologies: ['HTML', 'CSS', 'JAVASCRIPT' ,'PAYTM', 'JAVA', 'SPRING BOOT'],
       imageUrl: 'https://lh3.googleusercontent.com/d/1yMkvm-EdhCSZgLv1LDLC4PzTfSe6Fwtw'
     },
+    {
+      desc: "it is the Application used for creating short URL",
+      projectName: 'TinyUrl',
+      url: '',
+      technologies: ['HTML', 'CSS', 'JAVASCRIPT','REACTJS', 'JAVA', 'SPRING BOOT'],
+      imageUrl: 'https://lh3.googleusercontent.com/d/1vEnM1QwcAQKeKr8K7UE-4AZc-BVg0PJZ'
+    }
   ]
 }
 
