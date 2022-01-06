@@ -15,10 +15,10 @@ export const Intro = () => {
                     <a href="mailto:raviteja99866@gmail.com" className="mail center">
                         <FontAwesomeIcon icon={faEnvelope} />
                     </a>
-                    <a href="https://www.linkedin.com/in/raviteja-v-312567148/" target="_blank" rel="noreferrer" className="linkedin center">
+                    <a href="www.linkedin.com/in/ravitejav221b" target="_blank" rel="noreferrer" className="linkedin center">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://www.linkedin.com/in/raviteja-v-312567148/" target="_blank" rel="noreferrer" className="github center">
+                    <a href="https://github.com/ravitejav/" target="_blank" rel="noreferrer" className="github center">
                         <FontAwesomeIcon icon={faGithubAlt} />
                     </a>
                 </div>
