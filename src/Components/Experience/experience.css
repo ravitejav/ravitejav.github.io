@@ -41,15 +41,16 @@
 }
 .experience .experiences .exp .designation .imgWrapper {
     background-color: #0dd7f7;
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
     margin-right: 0.3rem;
     border-radius: 50%;
     height: 3.3rem;
     width: 3.3rem;
 }
 .experience .experiences .exp .designation .imgWrapper img {
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
 }
 @media screen and (max-width: 475px) {
     .experience {

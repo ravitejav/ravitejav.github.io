@@ -2,6 +2,7 @@
 export const COMPANY = {
     ACCOLITE: 'Accolite Digital',
     QUOTIENT: 'Quotient Technology Inc',
+    ORACLE: 'Oracle'
 }
 
 // Roles
@@ -10,4 +11,5 @@ export const ROLES = {
     SD: "Software Developer",
     SENIOR_SD: "Senior Software Developer",
     SDE2: "Software Developer 2",
+    APDIC3: "Application Developer 3"
 }
