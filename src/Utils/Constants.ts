@@ -74,16 +74,16 @@ const Experiences: Array<ExperienceModal> = [
     isCurrent: true,
     imageUrl:
       "https://lh3.googleusercontent.com/d/1zk7iNUWH1s2gC5IxuxFWz3vV924LqHwg",
-    desc: "Improved the knowledge management application for better user experience on articles like favrouties, notifications and suggestions of similar article on the exsiting articles or documnets",
+    desc: "We improved the knowledge management application for a better user experience in articles such as bookmarks, notifications, and  similar article suggestions for existing articles or documents.",
     work: [
       {
         from: new Date("Mon Nov 22 2021 00:00:00 GMT+0530"),
         to: new Date(),
         position: ROLES.APDIC3,
         workExperience: [
-          "Imporved the user experience by adding the notification and following feature in the application",
-          "Created an module for suggesting the ariticle or document based on the visitng an article or document",
-          "Implemented the API's for smooth user flow in realtime"
+          "Imporved the user experience by adding the notification and bookmarks feature in the application",
+          "Created an module for suggesting the article or document based on the activities of user",
+          "Implemented APIs for major user functionalities"
         ],
       },
     ],
@@ -100,7 +100,7 @@ const Experiences: Array<ExperienceModal> = [
         to: new Date(),
         position: ROLES.SDE2,
         workExperience:
-          "As part of development team implemented recently launched cashback offers feature in coupons.com. It allows users to select the store, upload the purchase receipt and gets the cash back amount credited into their Paypal account. And Worked on improvising the performance and SEO of the website.",
+          "As part of the development team implemented and launched the cashback offers a feature in coupons.com. It allows users to select the store, upload the purchase receipt, and get the cashback amount credited into their Paypal account. And Worked on improvising the performance and SEO of the website.",
       },
     ],
   },
