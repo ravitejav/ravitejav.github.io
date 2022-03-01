@@ -82,7 +82,7 @@ const Experiences: Array<ExperienceModal> = [
         position: ROLES.APDIC3,
         workExperience: [
           "Imporved the user experience by adding the notification and bookmarks feature in the application",
-          "Created an module for suggesting the article or document based on the activities of user",
+          "Developed a full-fledged module for suggesting similar article or documents based on user interactivity with knowldge management application",
           "Implemented APIs for major user functionalities"
         ],
       },
@@ -93,14 +93,16 @@ const Experiences: Array<ExperienceModal> = [
     totalExperience: "8 Months",
     imageUrl:
     "https://lh3.googleusercontent.com/d/16yJhjXUhd7_AzmmAUccW_j7nZuSjdsl8",
-    desc: "Implemented the UI and Logic for cashback offers in coupouns.com, It is application to avail the coupons's and claim the discounted products.",
+    desc: "Implemented the UI logic for cashback offers on Quotient offical website: coupons.com. The applciation is intelligent enough to scan uploaded bills, fetch relevant coupons and offer the user the best possible cashback offer.",
     work: [
       {
         from: new Date("Tue Jun 01 2021 00:00:00 GMT+0530"),
-        to: new Date(),
+        to: new Date("Mon Nov 22 2021 00:00:00 GMT+0530"),
         position: ROLES.SDE2,
-        workExperience:
-          "As part of the development team implemented and launched the cashback offers a feature in coupons.com. It allows users to select the store, upload the purchase receipt, and get the cashback amount credited into their Paypal account. And Worked on improvising the performance and SEO of the website.",
+        workExperience:[
+          "As part of the development tean designed and architected the UI for the cashback offers feature. It has many functionalities and integarations such as ability to select the store, upload purchase receipt, and claim cashbak to paypal wallet or simply claim suggested coupons.",
+          "Improvised the website performance by 16% and configured the application for SEO"
+        ]
       },
     ],
   },
