@@ -74,15 +74,15 @@ const Experiences: Array<ExperienceModal> = [
     isCurrent: true,
     imageUrl:
       "https://lh3.googleusercontent.com/d/1zk7iNUWH1s2gC5IxuxFWz3vV924LqHwg",
-    desc: "We improved the knowledge management application for a better user experience in articles such as bookmarks, notifications, and  similar article suggestions for existing articles or documents.",
+    desc: "We improved the knowledge management application for a better user experience in articles such as bookmarks, notifications, and similar article suggestions for existing articles or documents.",
     work: [
       {
         from: new Date("Mon Nov 22 2021 00:00:00 GMT+0530"),
         to: new Date(),
         position: ROLES.APDIC3,
         workExperience: [
-          "Imporved the user experience by adding the notification and bookmarks feature in the application",
-          "Developed a full-fledged module for suggesting similar article or documents based on user interactivity with knowldge management application",
+          "Improved the user experience by adding the notification and bookmarks feature in the application",
+          "Developed a full-fledged module for suggesting similar articles or documents based on user interactivity with knowledge management application",
           "Implemented APIs for major user functionalities"
         ],
       },
@@ -93,14 +93,14 @@ const Experiences: Array<ExperienceModal> = [
     totalExperience: "8 Months",
     imageUrl:
     "https://lh3.googleusercontent.com/d/16yJhjXUhd7_AzmmAUccW_j7nZuSjdsl8",
-    desc: "Implemented the UI logic for cashback offers on Quotient offical website: coupons.com. The applciation is intelligent enough to scan uploaded bills, fetch relevant coupons and offer the user the best possible cashback offer.",
+    desc: "Implemented the UI logic for cashback offers on Quotient's official website: coupons.com. The application is intelligent enough to scan uploaded bills, fetch relevant coupons and offer the user the best possible cashback offer.",
     work: [
       {
         from: new Date("Tue Jun 01 2021 00:00:00 GMT+0530"),
         to: new Date("Mon Nov 22 2021 00:00:00 GMT+0530"),
         position: ROLES.SDE2,
         workExperience:[
-          "As part of the development tean designed and architected the UI for the cashback offers feature. It has many functionalities and integarations such as ability to select the store, upload purchase receipt, and claim cashbak to paypal wallet or simply claim suggested coupons.",
+          "As part of the development team designed and architected the UI for the cashback offers feature. It has many functionalities and integrations such as the ability to select the store, upload purchase receipts, and claim cashback to PayPal wallet or simply claim suggested coupons.",
           "Improvised the website performance by 16% and configured the application for SEO"
         ]
       },
@@ -111,16 +111,16 @@ const Experiences: Array<ExperienceModal> = [
     totalExperience: "1 Yr 11 Months (+5Months Intern)",
     imageUrl:
       "https://lh3.googleusercontent.com/d/1A_Hj05XAaPjl-pDB19OzXZzXV0Vr3om1",
-    desc: "Worked on various projects to create, verify, and approve proposals. For the creation of the proposal, we have created the User Application, an automated system to verify the data using OCR, and approval of the proposal is done using various tech stacks React Native, ReactJS, Angular 2.",
+    desc: "Worked on Epos and other related projects which allows agents to create, verify, and approve proposals. Built an end-to-end automated application that allows agents to create proposals and bank analysts to verify and approve the proposals",
     work: [
       {
         from: new Date("Sun Mar 01 2020 00:00:00 GMT+0530"),
         to: new Date("Fri May 28 2021 00:00:00 GMT+0530"),
         position: ROLES.SENIOR_SD,
         workExperience: [
-          "Built the Automated Identity Card Verification system (OCR) Module in the Epos to verify the Users in early stages of create a proposal.",
-          "Designed and produced the web Application to verify the submitted applications. This module has Automated verification of basic details, in details has been verified manually",
-          "Built an Automated application to convert the spreadsheet data to Meta Data, this Meta Data is used in the many application.",
+          "Built the Automated Identity Card Verification system(OCR) module in the Epos to verify the users in the early stages of creating a proposal.",
+          "Designed and implemented the web application to verify the submitted applications. This module has automated verification of basic details and allows bank analysts to verify other details",
+          "Developed an automated application that transforms CSV, excel information in spread sheets to metadata, which is used in multiple applications.",
         ],
       },
       {
@@ -128,14 +128,14 @@ const Experiences: Array<ExperienceModal> = [
         to: new Date("Sun Mar 01 2020 00:00:00 GMT+0530"),
         position: ROLES.SD,
         workExperience:
-          "Developed the Epos Application to create and submit proposals by agents. In the later redesigned the application storage mechanism to increase the performance level by 200%, and made the application synchronised with the servers one time.",
+          "Developed the Epos Application to create and submit proposals by agents, following which we redesigned the application storage mechanism in such a way that boosted the performance level by 200%, and achieved real-time synchronization with the servers.",
       },
       {
         from: new Date("Thu Jan 03 2019 00:00:00 GMT+0530"),
         to: new Date("Fri May 31 2019 00:00:00 GMT+0530"),
         position: ROLES.INTERN,
         workExperience:
-          "Designed and Implemented data transformation of a large tabled database to a non-tabled database, for analysing the transaction and suggestions for the users.",
+          "Designed and Implemented modules for converting voluminous complex SQL structured data stored in RDMS to a simpler format that is understandable by NO-SQL Couchbase, for analyzing the transaction and suggesting relevant offers to the user.",
       },
     ],
   },
