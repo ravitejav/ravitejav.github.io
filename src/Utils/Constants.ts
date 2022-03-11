@@ -79,7 +79,7 @@ const Experiences: Array<ExperienceModal> = [
       {
         from: new Date("Mon Nov 22 2021 00:00:00 GMT+0530"),
         to: new Date(),
-        position: ROLES.APDIC3,
+        position: ROLES.APD,
         workExperience: [
           "Improved the user experience by adding the notification and bookmarks feature in the application",
           "Developed a full-fledged module for suggesting similar articles or documents based on user interactivity with knowledge management application",

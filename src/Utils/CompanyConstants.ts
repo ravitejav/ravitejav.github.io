@@ -11,5 +11,5 @@ export const ROLES = {
     SD: "Software Developer",
     SENIOR_SD: "Senior Software Developer",
     SDE2: "Software Developer 2",
-    APDIC3: "Application Developer 3"
+    APD: "Application Developer"
 }
