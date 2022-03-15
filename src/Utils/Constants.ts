@@ -194,6 +194,6 @@ const OtherProfiles: Array<OtherProfile> = [
   },
 ];
 
-const RESUME_LINK =  "https://drive.google.com/file/d/1kz21ZW9YUBQDVwTMQwe9FqOaEJ44Npr0/view?usp=sharing";
+const RESUME_LINK =  "https://drive.google.com/file/d/1Y7HVh5Nb_kZeYJ8GT9ftuxHimxv_j217/view?usp=sharing";
 
 export { menuBar, skillSet, Experiences, OtherProfiles, personalProjects, RESUME_LINK };
