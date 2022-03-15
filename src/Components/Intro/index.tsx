@@ -1,9 +1,15 @@
 import { faGithubAlt, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faDownload, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { RESUME_LINK } from 'Utils/Constants';
 import './intro.css';
 
 export const Intro = () => {
+
+    const openResumeInNewTab = () => {
+        window.open(RESUME_LINK, "_blank");
+    }
+
     return (
         <section className="introWrapper">
             <div className="intro">
@@ -22,7 +28,7 @@ export const Intro = () => {
                         <FontAwesomeIcon icon={faGithubAlt} />
                     </a>
                 </div>
-                <span className="downloadResume button">
+                <span className="downloadResume button" onClick={openResumeInNewTab}>
                     <FontAwesomeIcon icon={faDownload} />
                     Download Resume
                 </span>
