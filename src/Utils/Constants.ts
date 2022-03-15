@@ -120,7 +120,7 @@ const Experiences: Array<ExperienceModal> = [
         workExperience: [
           "Built the Automated Identity Card Verification system(OCR) module in the Epos to verify the users in the early stages of creating a proposal.",
           "Designed and implemented the web application to verify the submitted applications. This module has automated verification of basic details and allows bank analysts to verify other details",
-          "Developed an automated application that transforms CSV, excel information in spread sheets to metadata, which is used in multiple applications.",
+          "Developed an automated application that transforms CSV, excel information in spreadsheets to metadata, which is used in multiple applications.",
         ],
       },
       {
