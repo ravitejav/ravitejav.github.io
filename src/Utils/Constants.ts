@@ -4,6 +4,7 @@ import {
   faCss3Alt,
   faGitAlt,
   faHtml5,
+  faJava,
   faJs,
   faReact,
   faStackOverflow,
@@ -11,6 +12,7 @@ import {
 import {
   faFile,
   faHome,
+  faLeaf,
   faProjectDiagram,
   faUserTag,
 } from "@fortawesome/free-solid-svg-icons";
@@ -56,6 +58,8 @@ const skillSet: Array<Skill> = [
   { name: "HTML", icon: faHtml5 },
   { name: "CSS", icon: faCss3Alt },
   { name: "GIT", icon: faGitAlt },
+  { name: "JAVA", icon: faJava },
+  { name: "SPRING BOOT", icon: faLeaf }
 ];
 
 const getTimeGap = (from: Date): string => {
