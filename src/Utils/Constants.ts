@@ -94,7 +94,7 @@ const Experiences: Array<ExperienceModal> = [
   },
   {
     companyName: COMPANY.QUOTIENT,
-    totalExperience: "8 Months",
+    totalExperience: "6 Months",
     imageUrl:
     "https://lh3.googleusercontent.com/d/16yJhjXUhd7_AzmmAUccW_j7nZuSjdsl8",
     desc: "Implemented the UI logic for cashback offers on Quotient's official website: coupons.com. The application is intelligent enough to scan uploaded bills, fetch relevant coupons and offer the user the best possible cashback offer.",
